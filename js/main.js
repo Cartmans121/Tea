@@ -225,7 +225,7 @@ document.addEventListener('click', function (evt) {
 });
 const closeBtn = document.querySelector('.popup-close');
 closeBtn.addEventListener('click', function () {
-  const popup = this.closest('.poup');
+  const popup = this.closest('.popup');
   popup.classList.remove('is-active');
 });
 
