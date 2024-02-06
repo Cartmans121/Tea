@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>TeaLuxe</title>
+  <link rel="preload" href="fonts/OpenSans-LightItalic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/OpenSans-Light.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/OpenSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/OpenSans-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Cormorant-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <a href="#" class="header__logo logo">
+      <svg class="header__logo-svg" width="73px" height="105px">
+        <use xlink:href="img/sprite.svg#logo"></use>
+      </svg>
+    </a>
+    <nav class="nav" title="Main navigation">
+      <ul class="list-reset nav__list">
+        <li class="nav__item"><a href="#collection" class="nav__link link">Black</a></li>
+        <li class="nav__item"><a href="#collection" class="nav__link link">Green</a></li>
+        <li class="nav__item"><a href="#collection" class="nav__link link">White</a></li>
+        <li class="nav__item"><a href="#collection" class="nav__link link">Oolong</a></li>
+        <li class="nav__item"><a href="#collection" class="nav__link link">Pu-erh</a></li>
+      </ul>
+      <button class="btn-reset popup-btn" data-graph-path="popup">
+        <span class="popup-btn__line"></span>
+        <span class="popup-btn__line"></span>
+        <span class="popup-btn__line"></span>
+        <span class="popup-btn__line"></span>
+      </button>
+    </nav>
+    <div class="header__user">
+      <div class="header__cart">
+        <a href="#" class="header-cart__link">
+          <svg class="header-cart__svg svg-hover" width="20px" height="20px">
+            <use xlink:href="img/sprite.svg#bag"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="header__user-profile">
+        <a href="#" class="header-user__link">
+          <svg class="header-user__svg svg-hover" width="20px" height="20px">
+            <use xlink:href="img/sprite.svg#user"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <button class="search header__search btn-reset">
+      <svg class="serach__svg svg-hover" width="20px" height="20px">
+        <use xlink:href="img/sprite.svg#loop"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+    <main class="main">
+    <section class="top">
+    <div class="container top__container">
+        <h1 class="top__title">A cup of tea is a moment of calm in the chaos of life</h1>
+        <p class="top__text">Wide selection of high-quality teas from all over the world, carefully curated by tea experts.</p>
+    </div>
+</section>
+    <section id="collection" class="collection section">
+    <div class="container collection__container">
+        <div class="collection__top">
+            <blockquote class="collection__blockquote">
+                <h2 class="collection__title title">
+                    ″ Tea is not just a drink, it’s a way of life and a way to connect with our loved ones.″
+                </h2>
+            </blockquote>
+        </div>
+        <div class="collection__content">
+            <h2 class="collection__content-title title">Explore our Collections</h2>
+            <ul class="list-reset collection__list">
+                <li class="collection__item">
+                    <a href="#" class="collection__link">
+                        <div class="collection__img">
+                            <img src="./img/section-collection/1.png" alt="Collection tea" class="collection__img">
+                        </div>
+                        <p class="collection__name">Black</p>
+                    </a>
+                </li>
+                <li class="collection__item">
+                    <a href="#" class="collection__link">
+                        <div class="collection__img">
+                            <img src="./img/section-collection/2.png" alt="Collection tea" class="collection__img">
+                        </div>
+                        <p class="collection__name">Green</p>
+                    </a>
+                </li>
+                <li class="collection__item">
+                    <a href="#" class="collection__link">
+                        <div class="collection__img">
+                            <img src="./img/section-collection/3.png" alt="Collection tea" class="collection__img">
+                        </div>
+                        <p class="collection__name">White</p>
+                    </a>
+                </li>
+                <li class="collection__item">
+                    <a href="#" class="collection__link">
+                        <div class="collection__img">
+                            <img src="./img/section-collection/4.png" alt="Collection tea" class="collection__img">
+                        </div>
+                        <p class="collection__name">Oolong</p>
+                    </a>
+                </li>
+                <li class="collection__item">
+                    <a href="#" class="collection__link">
+                        <div class="collection__img">
+                            <img src="./img/section-collection/5.png" alt="Collection tea" class="collection__img">
+                        </div>
+                        <p class="collection__name">Pu-erh</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+    <section class="comments">
+    <div class="container comments__container">
+        <h2 class="comments__title title">What our Clients say</h2>
+        <div class="comments__content">
+            <ul class="list-reset comments__list">
+                <li class="comments__item item">
+                    <div class="comments__item-content">
+                        <blockquote class="comments__blockquote">
+                            <p class="comments__text">
+                                ″As a tea enthusiast, I have tried teas from all over the world, but this tea store
+                                truly stands out. Their teas are of the highest quality and the variety is impressive.
+                                This is definitely a tea store that every tea lover should visit.″
+                            </p>
+                        </blockquote>
+                        <h3 class="comments__author">Alice</h3>
+                    </div>
+                </li>
+                <li class="comments__item item">
+                    <div class="comments__item-content">
+                        <blockquote class="comments__blockquote">
+                            <p class="comments__text">
+                                ″This tea store is my go-to for all my tea needs. Their selection is unbeatable and the quality of their teas is exceptional.″
+                            </p>
+                        </blockquote>
+                        <h3 class="comments__author">Mad-Hatter</h3>
+                    </div>
+                </li>
+                <li class="comments__item item">
+                    <div class="comments__item-content">
+                        <blockquote class="comments__blockquote">
+                            <p class="comments__text">
+                                ″If you’re a tea lover, you must visit this tea store. The selection is vast and the quality is outstanding. I guarantee you won’t be disappointed.″
+                            </p>
+                        </blockquote>
+                        <h3 class="comments__author">Dormouse</h3>
+                    </div>
+                </li>
+                <li class="comments__item item">
+                    <div class="comments__item-content">
+                        <blockquote class="comments__blockquote">
+                            <p class="comments__text">
+                                ″I am not a big tea drinker, but this tea store has converted me. I highly recommend this tea store to anyone looking for a high-quality tea experience.″
+                            </p>
+                        </blockquote>
+                        <h3 class="comments__author">March Hare</h3>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+    <section class="blog section">
+    <div class="container blog__container">
+        <h2 class="blog__title title">
+            Our Tea Blog
+        </h2>
+        <div class="blog__items">
+            <div class="blog__item">
+                <article class="blog__article">
+                    <div class="blog__img">
+                        <img src="./img/section-blog/1.png" alt="Blog Image" width="270px" height="180px">
+                    </div>
+                    <div class="blog__content">
+                        <h3 class="blog__content-title">Tea Time Travels: Funny Moments from Around the World</h3>
+                        <p class="blog__text">by Robinson Crusoe</p>
+                        <a href="#" class="blog__link"><span class="blog__span">Read</span></a>
+                    </div>
+                </article>
+            </div>
+            <div class="blog__item">
+                <article class="blog__article">
+                    <div class="blog__img">
+                        <img src="./img/section-blog/2.png" alt="Blog Image" width="270px" height="180px">
+                    </div>
+                    <div class="blog__content">
+                        <h3 class="blog__content-title">The Role of Tea in Mental Health</h3>
+                        <p class="blog__text">by Joker</p>
+                        <a href="#" class="blog__link"><span class="blog__span">Read</span></a>
+                    </div>
+                </article>
+            </div>
+            <div class="blog__item">
+                <article class="blog__article">
+                    <div class="blog__img">
+                        <img src="./img/section-blog/3.png" alt="Blog Image" width="270px" height="180px">
+                    </div>
+                    <div class="blog__content">
+                        <h3 class="blog__content-title">Tea-rific Tales: Hilarious Stories from Tea Lovers</h3>
+                        <p class="blog__text">by Casper the Friendly Ghost</p>
+                        <a href="#" class="blog__link"><span class="blog__span">Read</span></a>
+                    </div>
+                </article>
+            </div>
+            <div class="blog__item">
+                <article class="blog__article">
+                    <div class="blog__img">
+                        <img src="./img/section-blog/4.png" alt="Blog Image" width="270px" height="180px">
+                    </div>
+                    <div class="blog__content">
+                        <h3 class="blog__content-title">Tea and Caffeine: Effects on the Brain and Behavior</h3>
+                        <p class="blog__text">by Author Authorius</p>
+                        <a href="#" class="blog__link"><span class="blog__span">Read</span></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="blog__btn">
+            <button class="btn-reset blog__btn btn">View all</button>
+        </div>
+    </div>
+</section>
+    <section class="more">
+    <div class="container more__container">
+        <h2 class="more__title title">Want to know more?</h2>
+        <div class="more__content">
+            <div class="more__descr more__item">
+                <p class="more__text">Join our mailing list and stay up-to-date with the latest news, promotions, and
+                    exclusive offers from our tea store. Be the first to know about new tea arrivals, seasonal blends,
+                    and
+                    special discounts. Don’t miss out on the tea-rrific perks — sign up today!</p>
+            </div>
+            <form id="form" class="form more__form more__item" enctype="multipart/form-data" method="POST">
+                <div class="form__wrapper">
+                    <label class="form__label">
+                        <input type="email" class="input-reset form__input" name="Email" placeholder="name@email.com" required>
+                    </label>
+                    <button type="submit" class="btn-reset form__btn btn">Join</button>
+                </div>
+                <label class="custom-checkbox">
+                    <input type="checkbox" class="custom-checkbox__field" required>
+                    <span class="custom-checkbox__content">We take your privacy seriously and are committed to
+                        protecting your personal information. By subscribing to our mailing list, you are consenting to
+                        receive periodic emails from us about our products, promotions, and other tea-related
+                        information.</span>
+                </label>
+            </form>
+        </div>
+    </div>
+</section>
+    <section class="priorities section">
+    <div class="container priorities__container">
+        <h2 class="priorities__title title">We Prioritise</h2>
+        <ul class="list-reset priorities__list">
+            <li class="priorities__item">
+                <h3 class="priorities__subtitle">Single garden teas</h3>
+                <p class="priorities__text">Complete transparency</p>
+                <svg class="priorities__svg svg-hover" width="60px" height="60px">
+                    <use xlink:href="img/sprite.svg#earth"></use>
+                </svg>
+            </li>
+            <li class="priorities__item">
+                <h3 class="priorities__subtitle">Only Loose leaf tea</h3>
+                <p class="priorities__text">Best Drinking Experience</p>
+                <svg class="priorities__svg svg-hover" width="60px" height="60px">
+                    <use xlink:href="img/sprite.svg#leaves"></use>
+                </svg>
+            </li>
+            <li class="priorities__item">
+                <h3 class="priorities__subtitle">Customer support</h3>
+                <p class="priorities__text">No bots, no automated replies</p>
+                <svg class="priorities__svg svg-hover" width="60px" height="60px">
+                    <use xlink:href="img/sprite.svg#support"></use>
+                </svg>
+            </li>
+            <li class="priorities__item">
+                <h3 class="priorities__subtitle">Fast shipping</h3>
+                <p class="priorities__text">Save, Convenient, Reliable</p>
+                <svg class="priorities__svg svg-hover" width="60px" height="60px">
+                    <use xlink:href="img/sprite.svg#earth"></use>
+                </svg>
+            </li>
+        </ul>
+    </div>
+</section>
+    <div class="graph-modal">
+    <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="popup">
+        <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+        <div class="graph-modal__content">
+            <ul class="list-reset nav__list">
+                <li class="nav__item"><a href="#" class="nav__link link">Black</a></li>
+                <li class="nav__item"><a href="#" class="nav__link link">Green</a></li>
+                <li class="nav__item"><a href="#" class="nav__link link">White</a></li>
+                <li class="nav__item"><a href="#" class="nav__link link">Oolong</a></li>
+                <li class="nav__item"><a href="#" class="nav__link link">Pu-erh</a></li>
+            </ul>
+            <div class="modal__contacts">
+                <ul class="list-reset modal__contacts-list">
+                    <li class="modal__contacts-item">
+                        <a href="#" class="modal__contacts-link link">Contact Us</a>
+                    </li>
+                    <li class="modal__contacts-item">
+                        <a href="#" class="modal__contacts-link link">Our Blog</a>
+                    </li>
+                    <li class="modal__contacts-item">
+                        <a href="#" class="modal__contacts-link link">Shipping and Delivery</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal__bottom">
+                <div class="header__cart">
+                    <a href="#" class="header-cart__link">
+                        <svg class="header-cart__svg svg-hover" width="20px" height="20px">
+                            <use xlink:href="img/sprite.svg#bag"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="header__user-profile">
+                    <a href="#" class="header-user__link">
+                        <svg class="header-user__svg svg-hover" width="20px" height="20px">
+                            <use xlink:href="img/sprite.svg#user"></use>
+                        </svg>
+                    </a>
+                </div>
+                <button class="search header__search btn-reset">
+                    <svg class="serach__svg svg-hover" width="20px" height="20px">
+                        <use xlink:href="img/sprite.svg#loop"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="popup popup-error">
+    <div class="popup-content" data-graph-target="popup">
+        <button class="btn-reset js-modal-close graph-modal__close popup-close" aria-label="Закрыть модальное окно"></button>
+        <p>Oops… An error has occurred, try again.</p>
+    </div>
+</div>
+    <div class="popup popup-send">
+    <div class="popup-content" data-graph-target="popup">
+        <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+        <p>The application has been successfully submited.</p>
+    </div>
+</div>
+    </main>
+    <footer class="footer">
+  <div class="container footer__container">
+    <ul class="list-reset footer__list grid">
+      <li class="footer__item footer__item-product">
+        <ul class="list-reset footer__item-list">
+          <li class="footer__item-inner-title">
+            <h3 class="footer__item-title">Products</h3>
+          </li>
+          <li class="footer__item-inner">
+            <a class="footer__item-link link" href="#">Black tea</a>
+          </li>
+          <li class="footer__item-inner">
+            <a class="footer__item-link link" href="#">Green tea</a>
+          </li>
+          <li class="footer__item-inner">
+            <a class="footer__item-link link" href="#">White tea</a>
+          </li>
+          <li class="footer__item-inner">
+            <a class="footer__item-link link" href="#">Oolong tea</a>
+          </li>
+          <li class="footer__item-inner">
+            <a class="footer__item-link link" href="#">Pu-erh tea</a>
+          </li>
+        </ul>
+      </li>
+      <li class="footer__item footer__item-company">
+        <ul class="list-reset footer__item-list">
+          <li class="footer__item-inner-title">
+            <h3 class="footer__item-title">Company</h3>
+          </li>
+          <li class="footer__item-inner">
+            <a class="footer__item-link link" href="#">About Us</a>
+          </li>
+          <li class="footer__item-inner">
+            <a class="footer__item-link link" href="#">Contact Us</a>
+          </li>
+          <li class="footer__item-inner">
+            <a class="footer__item-link link" href="#">Our Blog</a>
+          </li>
+          <li class="footer__item-inner">
+            <a class="footer__item-link link" href="#">FAQ</a>
+          </li>
+          <li class="footer__item-inner">
+            <a class="footer__item-link link" href="#">Shipping & Delivery</a>
+          </li>
+          <li class="footer__item-inner">
+            <a class="footer__item-link link" href="#">Refund policy</a>
+          </li>
+          <li class="footer__item-inner">
+            <a class="footer__item-link link" href="#">Terms of Service </a>
+          </li>
+        </ul>
+      </li>
+      <li class="footer__item footer__item-stay-in">
+        <div class="footer__item-descr">
+          <blockquote class="footer__item-blockquote">″Tea is a journey. It can take you to new places and open
+            your
+            mind to new experiences. Let every sip transport you to a world of wonder and possibility″
+          </blockquote>
+          <div class="footer__item-author">Dragomir Teodorescu, Tealuxe owner</div>
+        </div>
+        <div class="footer__item-content">
+          <h3 class="footer__item-title">Stay In Touch</h3>
+          <p class="footer__item-text">Please feel free to contact us via the email of phone. We would be happy to hear
+            from you!</p>
+          <div class="footer__item-contacts">
+            <div class="footer__item__img">
+              <a href="#" class="footer__item-logo">
+                <svg class="footer__item__svg" width="57px" height="91px">
+                  <use xlink:href="img/sprite.svg#logo"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="footer__item-contacts-content">
+              <div class="footer__item-phone">
+                <a href="tel:+370680123456" class="footer__item-phone-link">+370 680 123456</a>
+              </div>
+              <div class="footer__item-mail">
+                <a href="mailto:info@tealuxe.com" class="footer__item-mail-link">info@tealuxe.com</a>
+              </div>
+
+            </div>
+            <ul class="list-reset footer__item-socials">
+              <li class="footer__item-social">
+                <a href="#" class="footer__item-social-link">
+                  <svg class="footer__item-facebook footer__item-img" width="22px" height="22px">
+                    <use xlink:href="img/sprite.svg#fb"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__item-social">
+                <a href="#" class="footer__item-social-link">
+                  <svg class="footer__item-youtube footer__item-img" width="22px" height="22px">
+                    <use xlink:href="img/sprite.svg#youtube"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__item-social">
+                <a href="#" class="footer__item-social-link">
+                  <svg class="footer__item-instagram footer__item-img" width="22px" height="22px">
+                    <use xlink:href="img/sprite.svg#inst"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__item-social">
+                <a href="#" class="footer__item-social-link">
+                  <svg class="footer__item-twitter footer__item-img" width="22px" height="22px">
+                    <use xlink:href="img/sprite.svg#twit"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class="footer__bottom grid">
+      <p class="footer__copyright">© Tealuxe, 2023</p>
+      <div class="footer__payment">
+        <div class="footer__payment-img">
+          <picture>
+            <source srcset="./img/section-footer/mastercard.webp" type="image/webp">
+            <img loading="lazy" src="./img/section-footer/mastercard.png" class="image" width="26px" height="20px"
+              alt="Mastercard">
+          </picture>
+        </div>
+        <div class="footer__payment-img">
+          <picture>
+            <source srcset="./img/section-footer/visa.webp" type="image/webp">
+            <img loading="lazy" src="./img/section-footer/visa.png" class="image" width="31px" height="10px" alt="visa">
+          </picture>
+        </div>
+        <div class="footer__payment-img">
+          <picture>
+            <source srcset="./img/section-footer/g-pay.webp" type="image/webp">
+            <img loading="lazy" src="./img/section-footer/g-pay.png" class="image" width="29px" height="12px"
+              alt="Google Pay">
+          </picture>
+        </div>
+        <div class="footer__payment-img">
+          <picture>
+            <source srcset="./img/section-footer/paypal.webp" type="image/webp">
+            <img loading="lazy" src="./img/section-footer/paypal.png" class="image" width="10px" height="12px"
+              alt="paypal">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
